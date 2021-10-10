@@ -2,7 +2,7 @@ id,brand,model,ram_size,storage_size,display_diagonal,display_resolution,display
 samsung-galaxy-s10-6gb-128gb,Samsung,Galaxy S10+,6,128,6.4,1440x3040,Dynamic AMOLED,Exynos 9820,175g,4100,2019-03-08
 samsung-galaxy-s10-8gb-128gb,Samsung,Galaxy S10+,8,128,6.4,1440x3040,Dynamic AMOLED,Exynos 9820,175g,4100,2019-03-08
 samsung-galaxy-s10-8gb-512gb,Samsung,Galaxy S10+,8,512,6.4,1440x3040,Dynamic AMOLED,Exynos 9820,175g,4100,2019-03-08
-samsung-galaxy-s10-12gb-1tbgb,Samsung,Galaxy S10+,12,1TB,6.4,1440x3040,Dynamic AMOLED,Exynos 9820,175g,4100,2019-03-08
+samsung-galaxy-s10-12gb-1024gb,Samsung,Galaxy S10+,12,1024,6.4,1440x3040,Dynamic AMOLED,Exynos 9820,175g,4100,2019-03-08
 samsung-galaxy-s10-6gb-128gb,Samsung,Galaxy S10,6,128,6.1,1440x3040,Dynamic AMOLED,Exynos 9820,157,3400,2019-03-08
 samsung-galaxy-s10-8gb-128gb,Samsung,Galaxy S10,8,128,6.1,1440x3040,Dynamic AMOLED,Exynos 9820,157,3400,2019-03-08
 samsung-galaxy-s10-8gb-512gb,Samsung,Galaxy S10,8,512,6.1,1440x3040,Dynamic AMOLED,Exynos 9820,157,3400,2019-03-08
@@ -163,7 +163,7 @@ samsung-galaxy-z-flip3-5g-8gb-256gb,Samsung,Galaxy Z Flip3 5G,8,256,6.7,1080x264
 apple-iphone-13-pro-6gb-128gb,Apple,iPhone 13 Pro,6,128,6.1,1170x2532,Super Retina XDR OLED,Apple A15 Bionic,204,3095,2021-09-24
 apple-iphone-13-pro-6gb-256gb,Apple,iPhone 13 Pro,6,256,6.1,1170x2532,Super Retina XDR OLED,Apple A15 Bionic,204,3095,2021-09-24
 apple-iphone-13-pro-6gb-512gb,Apple,iPhone 13 Pro,6,512,6.1,1170x2532,Super Retina XDR OLED,Apple A15 Bionic,204,3095,2021-09-24
-apple-iphone-13-pro-6gb-1tbgb,Apple,iPhone 13 Pro,6,1TB,6.1,1170x2532,Super Retina XDR OLED,Apple A15 Bionic,204,3095,2021-09-24
+apple-iphone-13-pro-6gb-1024gb,Apple,iPhone 13 Pro,6,1024,6.1,1170x2532,Super Retina XDR OLED,Apple A15 Bionic,204,3095,2021-09-24
 apple-iphone-13-mini-4gb-128gb,Apple,iPhone 13 mini,4,128,5.4,1080x2340,Super Retina XDR OLED,Apple A15 Bionic,141,2438,2021-09-24
 apple-iphone-13-mini-4gb-256gb,Apple,iPhone 13 mini,4,256,5.4,1080x2340,Super Retina XDR OLED,Apple A15 Bionic,141,2438,2021-09-24
 apple-iphone-13-mini-4gb-512gb,Apple,iPhone 13 mini,4,512,5.4,1080x2340,Super Retina XDR OLED,Apple A15 Bionic,141,2438,2021-09-24
@@ -173,4 +173,4 @@ apple-iphone-13-4gb-512gb,Apple,iPhone 13,4,512,6.1,1170x2532,Super Retina XDR O
 apple-iphone-13-pro-max-6gb-128gb,Apple,iPhone 13 Pro Max,6,128,6.7,1284x2778,Super Retina XDR OLED,Apple A15 Bionic,240,4352,2021-09-24
 apple-iphone-13-pro-max-6gb-256gb,Apple,iPhone 13 Pro Max,6,256,6.7,1284x2778,Super Retina XDR OLED,Apple A15 Bionic,240,4352,2021-09-24
 apple-iphone-13-pro-max-6gb-512gb,Apple,iPhone 13 Pro Max,6,512,6.7,1284x2778,Super Retina XDR OLED,Apple A15 Bionic,240,4352,2021-09-24
-apple-iphone-13-pro-max-6gb-1tbgb,Apple,iPhone 13 Pro Max,6,1TB,6.7,1284x2778,Super Retina XDR OLED,Apple A15 Bionic,240,4352,2021-09-24
+apple-iphone-13-pro-max-6gb-1024gb,Apple,iPhone 13 Pro Max,6,1024,6.7,1284x2778,Super Retina XDR OLED,Apple A15 Bionic,240,4352,2021-09-24
