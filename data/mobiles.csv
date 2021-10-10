@@ -1,8 +1,8 @@
 id,brand,model,ram_size,storage_size,display_diagonal,display_resolution,display_type,chipset,body_weight,battery_capacity,release_date
-samsung-galaxy-s10-6gb-128gb,Samsung,Galaxy S10+,6,128,6.4,1440x3040,Dynamic AMOLED,Exynos 9820,175g,4100,2019-03-08
-samsung-galaxy-s10-8gb-128gb,Samsung,Galaxy S10+,8,128,6.4,1440x3040,Dynamic AMOLED,Exynos 9820,175g,4100,2019-03-08
-samsung-galaxy-s10-8gb-512gb,Samsung,Galaxy S10+,8,512,6.4,1440x3040,Dynamic AMOLED,Exynos 9820,175g,4100,2019-03-08
-samsung-galaxy-s10-12gb-1024gb,Samsung,Galaxy S10+,12,1024,6.4,1440x3040,Dynamic AMOLED,Exynos 9820,175g,4100,2019-03-08
+samsung-galaxy-s10-6gb-128gb,Samsung,Galaxy S10+,6,128,6.4,1440x3040,Dynamic AMOLED,Exynos 9820,175,4100,2019-03-08
+samsung-galaxy-s10-8gb-128gb,Samsung,Galaxy S10+,8,128,6.4,1440x3040,Dynamic AMOLED,Exynos 9820,175,4100,2019-03-08
+samsung-galaxy-s10-8gb-512gb,Samsung,Galaxy S10+,8,512,6.4,1440x3040,Dynamic AMOLED,Exynos 9820,175,4100,2019-03-08
+samsung-galaxy-s10-12gb-1024gb,Samsung,Galaxy S10+,12,1024,6.4,1440x3040,Dynamic AMOLED,Exynos 9820,175,4100,2019-03-08
 samsung-galaxy-s10-6gb-128gb,Samsung,Galaxy S10,6,128,6.1,1440x3040,Dynamic AMOLED,Exynos 9820,157,3400,2019-03-08
 samsung-galaxy-s10-8gb-128gb,Samsung,Galaxy S10,8,128,6.1,1440x3040,Dynamic AMOLED,Exynos 9820,157,3400,2019-03-08
 samsung-galaxy-s10-8gb-512gb,Samsung,Galaxy S10,8,512,6.1,1440x3040,Dynamic AMOLED,Exynos 9820,157,3400,2019-03-08
@@ -70,10 +70,10 @@ xiaomi-redmi-9c-3gb-32gb,Xiaomi,Redmi 9C,3,32,6.53,720x1600,IPS LCD,MediaTek Hel
 xiaomi-redmi-9c-3gb-64gb,Xiaomi,Redmi 9C,3,64,6.53,720x1600,IPS LCD,MediaTek Helio G35,196,5000,2020-08-12
 xiaomi-redmi-9c-4gb-64gb,Xiaomi,Redmi 9C,4,64,6.53,720x1600,IPS LCD,MediaTek Helio G35,196,5000,2020-08-12
 xiaomi-redmi-9c-4gb-128gb,Xiaomi,Redmi 9C,4,128,6.53,720x1600,IPS LCD,MediaTek Helio G35,196,5000,2020-08-12
-xiaomi-mi-10-ultra-8gb-128gb,Xiaomi,Mi 10 Ultra,8,128,6.67,1080x2340,OLED,Qualcomm SM8250 Snapdragon 865 5G,221.8,4500,2020-08-16
-xiaomi-mi-10-ultra-8gb-256gb,Xiaomi,Mi 10 Ultra,8,256,6.67,1080x2340,OLED,Qualcomm SM8250 Snapdragon 865 5G,221.8,4500,2020-08-16
-xiaomi-mi-10-ultra-12gb-256gb,Xiaomi,Mi 10 Ultra,12,256,6.67,1080x2340,OLED,Qualcomm SM8250 Snapdragon 865 5G,221.8,4500,2020-08-16
-xiaomi-mi-10-ultra-16gb-512gb,Xiaomi,Mi 10 Ultra,16,512,6.67,1080x2340,OLED,Qualcomm SM8250 Snapdragon 865 5G,221.8,4500,2020-08-16
+xiaomi-mi-10-ultra-8gb-128gb,Xiaomi,Mi 10 Ultra,8,128,6.67,1080x2340,OLED,Qualcomm SM8250 Snapdragon 865 5G,221,4500,2020-08-16
+xiaomi-mi-10-ultra-8gb-256gb,Xiaomi,Mi 10 Ultra,8,256,6.67,1080x2340,OLED,Qualcomm SM8250 Snapdragon 865 5G,221,4500,2020-08-16
+xiaomi-mi-10-ultra-12gb-256gb,Xiaomi,Mi 10 Ultra,12,256,6.67,1080x2340,OLED,Qualcomm SM8250 Snapdragon 865 5G,221,4500,2020-08-16
+xiaomi-mi-10-ultra-16gb-512gb,Xiaomi,Mi 10 Ultra,16,512,6.67,1080x2340,OLED,Qualcomm SM8250 Snapdragon 865 5G,221,4500,2020-08-16
 samsung-galaxy-note20-8gb-256gb,Samsung,Galaxy Note20,8,256,6.7,1080x2400,Super AMOLED Plus,Exynos 990,192,4300,2020-08-21
 samsung-galaxy-note20-ultra-8gb-256gb,Samsung,Galaxy Note20 Ultra,8,256,6.9,1440x3088,Dynamic AMOLED 2X,Exynos 990,208,4500,2020-08-21
 samsung-galaxy-note20-ultra-8gb-512gb,Samsung,Galaxy Note20 Ultra,8,512,6.9,1440x3088,Dynamic AMOLED 2X,Exynos 990,208,4500,2020-08-21
@@ -125,19 +125,19 @@ samsung-galaxy-a02-2gb-32gb,Samsung,Galaxy A02,2,32,6.5,720x1600,PLS IPS,Mediate
 samsung-galaxy-a02-3gb-32gb,Samsung,Galaxy A02,3,32,6.5,720x1600,PLS IPS,Mediatek MT6739W,206,5000,2021-01-27
 samsung-galaxy-a02-4gb-32gb,Samsung,Galaxy A02,4,32,6.5,720x1600,PLS IPS,Mediatek MT6739W,206,5000,2021-01-27
 samsung-galaxy-a02-3gb-64gb,Samsung,Galaxy A02,3,64,6.5,720x1600,PLS IPS,Mediatek MT6739W,206,5000,2021-01-27
-samsung-galaxy-s21-ultra-5g-12gb-128gb,Samsung,Galaxy S21 Ultra 5G,12,128,6.8,1440x3200,Dynamic AMOLED 2X,Exynos 2100,227g,5000,2021-01-29
-samsung-galaxy-s21-ultra-5g-12gb-256gb,Samsung,Galaxy S21 Ultra 5G,12,256,6.8,1440x3200,Dynamic AMOLED 2X,Exynos 2100,227g,5000,2021-01-29
-samsung-galaxy-s21-ultra-5g-12gb-512gb,Samsung,Galaxy S21 Ultra 5G,12,512,6.8,1440x3200,Dynamic AMOLED 2X,Exynos 2100,227g,5000,2021-01-29
-samsung-galaxy-s21-ultra-5g-16gb-512gb,Samsung,Galaxy S21 Ultra 5G,16,512,6.8,1440x3200,Dynamic AMOLED 2X,Exynos 2100,227g,5000,2021-01-29
-samsung-galaxy-s21-5g-8gb-128gb,Samsung,Galaxy S21+ 5G,8,128,6.7,1080x2400,Dynamic AMOLED 2X,Exynos 2100,200g,4800,2021-01-29
-samsung-galaxy-s21-5g-8gb-256gb,Samsung,Galaxy S21+ 5G,8,256,6.7,1080x2400,Dynamic AMOLED 2X,Exynos 2100,200g,4800,2021-01-29
+samsung-galaxy-s21-ultra-5g-12gb-128gb,Samsung,Galaxy S21 Ultra 5G,12,128,6.8,1440x3200,Dynamic AMOLED 2X,Exynos 2100,227,5000,2021-01-29
+samsung-galaxy-s21-ultra-5g-12gb-256gb,Samsung,Galaxy S21 Ultra 5G,12,256,6.8,1440x3200,Dynamic AMOLED 2X,Exynos 2100,227,5000,2021-01-29
+samsung-galaxy-s21-ultra-5g-12gb-512gb,Samsung,Galaxy S21 Ultra 5G,12,512,6.8,1440x3200,Dynamic AMOLED 2X,Exynos 2100,227,5000,2021-01-29
+samsung-galaxy-s21-ultra-5g-16gb-512gb,Samsung,Galaxy S21 Ultra 5G,16,512,6.8,1440x3200,Dynamic AMOLED 2X,Exynos 2100,227,5000,2021-01-29
+samsung-galaxy-s21-5g-8gb-128gb,Samsung,Galaxy S21+ 5G,8,128,6.7,1080x2400,Dynamic AMOLED 2X,Exynos 2100,200,4800,2021-01-29
+samsung-galaxy-s21-5g-8gb-256gb,Samsung,Galaxy S21+ 5G,8,256,6.7,1080x2400,Dynamic AMOLED 2X,Exynos 2100,200,4800,2021-01-29
 samsung-galaxy-a32-4gb-64gb,Samsung,Galaxy A32,4,64,6.4,1080x2400,Super AMOLED,Mediatek Helio G80,184,5000,2021-02-25
 samsung-galaxy-a32-4gb-128gb,Samsung,Galaxy A32,4,128,6.4,1080x2400,Super AMOLED,Mediatek Helio G80,184,5000,2021-02-25
 samsung-galaxy-a32-6gb-128gb,Samsung,Galaxy A32,6,128,6.4,1080x2400,Super AMOLED,Mediatek Helio G80,184,5000,2021-02-25
 samsung-galaxy-a32-8gb-128gb,Samsung,Galaxy A32,8,128,6.4,1080x2400,Super AMOLED,Mediatek Helio G80,184,5000,2021-02-25
-xiaomi-redmi-note-10-4gb-64gb,Xiaomi,Redmi Note 10,4,64,6.43,1080x2400,Super AMOLED,Qualcomm SDM678 Snapdragon 678,178.8,5000,2021-03-16
-xiaomi-redmi-note-10-4gb-128gb,Xiaomi,Redmi Note 10,4,128,6.43,1080x2400,Super AMOLED,Qualcomm SDM678 Snapdragon 678,178.8,5000,2021-03-16
-xiaomi-redmi-note-10-6gb-128gb,Xiaomi,Redmi Note 10,6,128,6.43,1080x2400,Super AMOLED,Qualcomm SDM678 Snapdragon 678,178.8,5000,2021-03-16
+xiaomi-redmi-note-10-4gb-64gb,Xiaomi,Redmi Note 10,4,64,6.43,1080x2400,Super AMOLED,Qualcomm SDM678 Snapdragon 678,178,5000,2021-03-16
+xiaomi-redmi-note-10-4gb-128gb,Xiaomi,Redmi Note 10,4,128,6.43,1080x2400,Super AMOLED,Qualcomm SDM678 Snapdragon 678,178,5000,2021-03-16
+xiaomi-redmi-note-10-6gb-128gb,Xiaomi,Redmi Note 10,6,128,6.43,1080x2400,Super AMOLED,Qualcomm SDM678 Snapdragon 678,178,5000,2021-03-16
 xiaomi-redmi-note-10-pro-6gb-64gb,Xiaomi,Redmi Note 10 Pro,6,64,6.67,1080x2400,AMOLED,Qualcomm SM7150 Snapdragon 732G,193,5020,2021-03-24
 xiaomi-redmi-note-10-pro-6gb-128gb,Xiaomi,Redmi Note 10 Pro,6,128,6.67,1080x2400,AMOLED,Qualcomm SM7150 Snapdragon 732G,193,5020,2021-03-24
 xiaomi-redmi-note-10-pro-8gb-128gb,Xiaomi,Redmi Note 10 Pro,8,128,6.67,1080x2400,AMOLED,Qualcomm SM7150 Snapdragon 732G,193,5020,2021-03-24
@@ -154,10 +154,10 @@ xiaomi-mi-11-lite-4gb-64gb,Xiaomi,Mi 11 Lite,4,64,6.55,1080x2400,AMOLED,Qualcomm
 xiaomi-mi-11-lite-6gb-64gb,Xiaomi,Mi 11 Lite,6,64,6.55,1080x2400,AMOLED,Qualcomm SM7150 Snapdragon 732G,157,4250,2021-04-16
 xiaomi-mi-11-lite-6gb-128gb,Xiaomi,Mi 11 Lite,6,128,6.55,1080x2400,AMOLED,Qualcomm SM7150 Snapdragon 732G,157,4250,2021-04-16
 xiaomi-mi-11-lite-8gb-128gb,Xiaomi,Mi 11 Lite,8,128,6.55,1080x2400,AMOLED,Qualcomm SM7150 Snapdragon 732G,157,4250,2021-04-16
-xiaomi-redmi-note-10s-6gb-64gb,Xiaomi,Redmi Note 10S,6,64,6.43,1080x2400,AMOLED,Mediatek Helio G95,178.8,5000,2021-04-28
-xiaomi-redmi-note-10s-4gb-128gb,Xiaomi,Redmi Note 10S,4,128,6.43,1080x2400,AMOLED,Mediatek Helio G95,178.8,5000,2021-04-28
-xiaomi-redmi-note-10s-6gb-128gb,Xiaomi,Redmi Note 10S,6,128,6.43,1080x2400,AMOLED,Mediatek Helio G95,178.8,5000,2021-04-28
-xiaomi-redmi-note-10s-8gb-128gb,Xiaomi,Redmi Note 10S,8,128,6.43,1080x2400,AMOLED,Mediatek Helio G95,178.8,5000,2021-04-28
+xiaomi-redmi-note-10s-6gb-64gb,Xiaomi,Redmi Note 10S,6,64,6.43,1080x2400,AMOLED,Mediatek Helio G95,178,5000,2021-04-28
+xiaomi-redmi-note-10s-4gb-128gb,Xiaomi,Redmi Note 10S,4,128,6.43,1080x2400,AMOLED,Mediatek Helio G95,178,5000,2021-04-28
+xiaomi-redmi-note-10s-6gb-128gb,Xiaomi,Redmi Note 10S,6,128,6.43,1080x2400,AMOLED,Mediatek Helio G95,178,5000,2021-04-28
+xiaomi-redmi-note-10s-8gb-128gb,Xiaomi,Redmi Note 10S,8,128,6.43,1080x2400,AMOLED,Mediatek Helio G95,178,5000,2021-04-28
 samsung-galaxy-z-flip3-5g-8gb-128gb,Samsung,Galaxy Z Flip3 5G,8,128,6.7,1080x2640,Foldable Dynamic AMOLED 2X,Qualcomm SM8350 Snapdragon 888 5G,183,3300,2021-08-27
 samsung-galaxy-z-flip3-5g-8gb-256gb,Samsung,Galaxy Z Flip3 5G,8,256,6.7,1080x2640,Foldable Dynamic AMOLED 2X,Qualcomm SM8350 Snapdragon 888 5G,183,3300,2021-08-27
 apple-iphone-13-pro-6gb-128gb,Apple,iPhone 13 Pro,6,128,6.1,1170x2532,Super Retina XDR OLED,Apple A15 Bionic,204,3095,2021-09-24
