@@ -1,8 +1,8 @@
 id,brand,model,ram_size,storage_size,display_diagonal,display_resolution,display_type,chipset,body_weight,battery_capacity,release_date
-samsung-galaxy-s10-6gb-128gb,Samsung,Galaxy S10+,6,128,6.4,1440x3040,Dynamic AMOLED,Exynos 9820,175,4100,2019-03-08
-samsung-galaxy-s10-8gb-128gb,Samsung,Galaxy S10+,8,128,6.4,1440x3040,Dynamic AMOLED,Exynos 9820,175,4100,2019-03-08
-samsung-galaxy-s10-8gb-512gb,Samsung,Galaxy S10+,8,512,6.4,1440x3040,Dynamic AMOLED,Exynos 9820,175,4100,2019-03-08
-samsung-galaxy-s10-12gb-1024gb,Samsung,Galaxy S10+,12,1024,6.4,1440x3040,Dynamic AMOLED,Exynos 9820,175,4100,2019-03-08
+samsung-galaxy-s10+-6gb-128gb,Samsung,Galaxy S10+,6,128,6.4,1440x3040,Dynamic AMOLED,Exynos 9820,175,4100,2019-03-08
+samsung-galaxy-s10+-8gb-128gb,Samsung,Galaxy S10+,8,128,6.4,1440x3040,Dynamic AMOLED,Exynos 9820,175,4100,2019-03-08
+samsung-galaxy-s10+-8gb-512gb,Samsung,Galaxy S10+,8,512,6.4,1440x3040,Dynamic AMOLED,Exynos 9820,175,4100,2019-03-08
+samsung-galaxy-s10+-12gb-1024gb,Samsung,Galaxy S10+,12,1024,6.4,1440x3040,Dynamic AMOLED,Exynos 9820,175,4100,2019-03-08
 samsung-galaxy-s10-6gb-128gb,Samsung,Galaxy S10,6,128,6.1,1440x3040,Dynamic AMOLED,Exynos 9820,157,3400,2019-03-08
 samsung-galaxy-s10-8gb-128gb,Samsung,Galaxy S10,8,128,6.1,1440x3040,Dynamic AMOLED,Exynos 9820,157,3400,2019-03-08
 samsung-galaxy-s10-8gb-512gb,Samsung,Galaxy S10,8,512,6.1,1440x3040,Dynamic AMOLED,Exynos 9820,157,3400,2019-03-08
@@ -32,7 +32,7 @@ samsung-galaxy-a01-2gb-16gb,Samsung,Galaxy A01,2,16,5.7,720x1520,PLS IPS,Qualcom
 samsung-galaxy-a01-2gb-32gb,Samsung,Galaxy A01,2,32,5.7,720x1520,PLS IPS,Qualcomm SDM439 Snapdragon 439,149,3000,2020-01-01
 samsung-galaxy-a71-6gb-128gb,Samsung,Galaxy A71,6,128,6.7,1080x2400,Super AMOLED Plus,Qualcomm SDM730 Snapdragon 730,179,4500,2020-01-17
 samsung-galaxy-a71-8gb-128gb,Samsung,Galaxy A71,8,128,6.7,1080x2400,Super AMOLED Plus,Qualcomm SDM730 Snapdragon 730,179,4500,2020-01-17
-samsung-galaxy-s20-8gb-128gb,Samsung,Galaxy S20+,8,128,6.7,1440x3200,Dynamic AMOLED 2X,Exynos 990,186,4500,2020-03-06
+samsung-galaxy-s20+-8gb-128gb,Samsung,Galaxy S20+,8,128,6.7,1440x3200,Dynamic AMOLED 2X,Exynos 990,186,4500,2020-03-06
 samsung-galaxy-s20-ultra-12gb-128gb,Samsung,Galaxy S20 Ultra,12,128,6.9,1440x3200,Dynamic AMOLED 2X,Exynos 990,220,5000,2020-03-15
 samsung-galaxy-s20-ultra-16gb-512gb,Samsung,Galaxy S20 Ultra,16,512,6.9,1440x3200,Dynamic AMOLED 2X,Exynos 990,220,5000,2020-03-15
 samsung-galaxy-a31-4gb-64gb,Samsung,Galaxy A31,4,64,6.4,1080x2400,Super AMOLED,Mediatek MT6768 Helio P65,185,5000,2020-04-27
@@ -129,8 +129,8 @@ samsung-galaxy-s21-ultra-5g-12gb-128gb,Samsung,Galaxy S21 Ultra 5G,12,128,6.8,14
 samsung-galaxy-s21-ultra-5g-12gb-256gb,Samsung,Galaxy S21 Ultra 5G,12,256,6.8,1440x3200,Dynamic AMOLED 2X,Exynos 2100,227,5000,2021-01-29
 samsung-galaxy-s21-ultra-5g-12gb-512gb,Samsung,Galaxy S21 Ultra 5G,12,512,6.8,1440x3200,Dynamic AMOLED 2X,Exynos 2100,227,5000,2021-01-29
 samsung-galaxy-s21-ultra-5g-16gb-512gb,Samsung,Galaxy S21 Ultra 5G,16,512,6.8,1440x3200,Dynamic AMOLED 2X,Exynos 2100,227,5000,2021-01-29
-samsung-galaxy-s21-5g-8gb-128gb,Samsung,Galaxy S21+ 5G,8,128,6.7,1080x2400,Dynamic AMOLED 2X,Exynos 2100,200,4800,2021-01-29
-samsung-galaxy-s21-5g-8gb-256gb,Samsung,Galaxy S21+ 5G,8,256,6.7,1080x2400,Dynamic AMOLED 2X,Exynos 2100,200,4800,2021-01-29
+samsung-galaxy-s21+-5g-8gb-128gb,Samsung,Galaxy S21+ 5G,8,128,6.7,1080x2400,Dynamic AMOLED 2X,Exynos 2100,200,4800,2021-01-29
+samsung-galaxy-s21+-5g-8gb-256gb,Samsung,Galaxy S21+ 5G,8,256,6.7,1080x2400,Dynamic AMOLED 2X,Exynos 2100,200,4800,2021-01-29
 samsung-galaxy-a32-4gb-64gb,Samsung,Galaxy A32,4,64,6.4,1080x2400,Super AMOLED,Mediatek Helio G80,184,5000,2021-02-25
 samsung-galaxy-a32-4gb-128gb,Samsung,Galaxy A32,4,128,6.4,1080x2400,Super AMOLED,Mediatek Helio G80,184,5000,2021-02-25
 samsung-galaxy-a32-6gb-128gb,Samsung,Galaxy A32,6,128,6.4,1080x2400,Super AMOLED,Mediatek Helio G80,184,5000,2021-02-25
