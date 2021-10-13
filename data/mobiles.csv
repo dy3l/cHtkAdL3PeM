@@ -1,4 +1,6 @@
 id,brand,model,ram_size,storage_size,display_diagonal,display_resolution,display_type,chipset,body_weight,battery_capacity,release_date
+huawei-y7-prime-(2019)-3gb-32gb,Huawei,Y7 Prime (2019),3,32,6.26,720x1520,IPS LCD,Qualcomm SDM450 Snapdragon 450,168,4000,2019-01-01
+huawei-y7-prime-(2019)-3gb-64gb,Huawei,Y7 Prime (2019),3,64,6.26,720x1520,IPS LCD,Qualcomm SDM450 Snapdragon 450,168,4000,2019-01-01
 samsung-galaxy-s10+-6gb-128gb,Samsung,Galaxy S10+,6,128,6.4,1440x3040,Dynamic AMOLED,Exynos 9820,175,4100,2019-03-08
 samsung-galaxy-s10+-8gb-128gb,Samsung,Galaxy S10+,8,128,6.4,1440x3040,Dynamic AMOLED,Exynos 9820,175,4100,2019-03-08
 samsung-galaxy-s10+-8gb-512gb,Samsung,Galaxy S10+,8,512,6.4,1440x3040,Dynamic AMOLED,Exynos 9820,175,4100,2019-03-08
@@ -6,8 +8,15 @@ samsung-galaxy-s10+-12gb-1024gb,Samsung,Galaxy S10+,12,1024,6.4,1440x3040,Dynami
 samsung-galaxy-s10-6gb-128gb,Samsung,Galaxy S10,6,128,6.1,1440x3040,Dynamic AMOLED,Exynos 9820,157,3400,2019-03-08
 samsung-galaxy-s10-8gb-128gb,Samsung,Galaxy S10,8,128,6.1,1440x3040,Dynamic AMOLED,Exynos 9820,157,3400,2019-03-08
 samsung-galaxy-s10-8gb-512gb,Samsung,Galaxy S10,8,512,6.1,1440x3040,Dynamic AMOLED,Exynos 9820,157,3400,2019-03-08
+oppo-a9-4gb-128gb,Oppo,A9,4,128,6.53,1080x2340,IPS LCD,Mediatek MT6771V Helio P70,190,4020,2019-04-01
+oppo-a9-6gb-128gb,Oppo,A9,6,128,6.53,1080x2340,IPS LCD,Mediatek MT6771V Helio P70,190,4020,2019-04-01
+oppo-a9-8gb-128gb,Oppo,A9,8,128,6.53,1080x2340,IPS LCD,Mediatek MT6771V Helio P70,190,4020,2019-04-01
 samsung-galaxy-a2-core-1gb-8gb,Samsung,Galaxy A2 Core,1,8,5.0,540x960,PLS IPS,Exynos 7870 Octa,142,2600,2019-04-01
 samsung-galaxy-a2-core-1gb-16gb,Samsung,Galaxy A2 Core,1,16,5.0,540x960,PLS IPS,Exynos 7870 Octa,142,2600,2019-04-01
+oppo-a9-(2020)-4gb-128gb,Oppo,A9 (2020),4,128,6.5,720x1600,IPS LCD,Qualcomm SDM665 Snapdragon 665,195,5000,2019-09-01
+oppo-a9-(2020)-8gb-128gb,Oppo,A9 (2020),8,128,6.5,720x1600,IPS LCD,Qualcomm SDM665 Snapdragon 665,195,5000,2019-09-01
+huawei-nova-5t-6gb-128gb,Huawei,nova 5T,6,128,6.26,1080x2340,IPS LCD,Kirin 980,174,3750,2019-09-05
+huawei-nova-5t-8gb-128gb,Huawei,nova 5T,8,128,6.26,1080x2340,IPS LCD,Kirin 980,174,3750,2019-09-05
 samsung-galaxy-a30s-3gb-32gb,Samsung,Galaxy A30s,3,32,6.4,720x1560,Super AMOLED,Exynos 7904,169,4000,2019-09-11
 samsung-galaxy-a30s-4gb-64gb,Samsung,Galaxy A30s,4,64,6.4,720x1560,Super AMOLED,Exynos 7904,169,4000,2019-09-11
 samsung-galaxy-a30s-4gb-128gb,Samsung,Galaxy A30s,4,128,6.4,720x1560,Super AMOLED,Exynos 7904,169,4000,2019-09-11
@@ -20,6 +29,8 @@ apple-iphone-11-pro-max-4gb-512gb,Apple,iPhone 11 Pro Max,4,512,6.5,1242x2688,Su
 apple-iphone-11-4gb-64gb,Apple,iPhone 11,4,64,6.1,828x1792,Liquid Retina IPS LCD,Apple A13 Bionic,194,3110,2019-09-20
 apple-iphone-11-4gb-128gb,Apple,iPhone 11,4,128,6.1,828x1792,Liquid Retina IPS LCD,Apple A13 Bionic,194,3110,2019-09-20
 apple-iphone-11-4gb-256gb,Apple,iPhone 11,4,256,6.1,828x1792,Liquid Retina IPS LCD,Apple A13 Bionic,194,3110,2019-09-20
+infinix-s5-4gb-64gb,Infinix,S5,4,64,6.6,720x1600,IPS LCD,Mediatek MT6762 Helio P22,178,4000,2019-10-01
+infinix-s5-6gb-128gb,Infinix,S5,6,128,6.6,720x1600,IPS LCD,Mediatek MT6762 Helio P22,178,4000,2019-10-01
 samsung-galaxy-a20s-2gb-32gb,Samsung,Galaxy A20s,2,32,6.5,720x1560,IPS LCD,Qualcomm SDM450 Snapdragon 450,183,4000,2019-10-05
 samsung-galaxy-a20s-3gb-32gb,Samsung,Galaxy A20s,3,32,6.5,720x1560,IPS LCD,Qualcomm SDM450 Snapdragon 450,183,4000,2019-10-05
 samsung-galaxy-a20s-4gb-64gb,Samsung,Galaxy A20s,4,64,6.5,720x1560,IPS LCD,Qualcomm SDM450 Snapdragon 450,183,4000,2019-10-05
@@ -32,13 +43,35 @@ samsung-galaxy-a01-2gb-16gb,Samsung,Galaxy A01,2,16,5.7,720x1520,PLS IPS,Qualcom
 samsung-galaxy-a01-2gb-32gb,Samsung,Galaxy A01,2,32,5.7,720x1520,PLS IPS,Qualcomm SDM439 Snapdragon 439,149,3000,2020-01-01
 samsung-galaxy-a71-6gb-128gb,Samsung,Galaxy A71,6,128,6.7,1080x2400,Super AMOLED Plus,Qualcomm SDM730 Snapdragon 730,179,4500,2020-01-17
 samsung-galaxy-a71-8gb-128gb,Samsung,Galaxy A71,8,128,6.7,1080x2400,Super AMOLED Plus,Qualcomm SDM730 Snapdragon 730,179,4500,2020-01-17
+huawei-y7p-4gb-64gb,Huawei,Y7p,4,64,6.39,720x1560,IPS LCD,Kirin 710F,176,4000,2020-02-07
+huawei-nova-7i-8gb-128gb,Huawei,nova 7i,8,128,6.4,1080x2310,IPS LCD,Kirin 810,183,4200,2020-02-14
+oppo-a31-4gb-64gb,Oppo,A31,4,64,6.5,720x1600,IPS LCD,Mediatek MT6765V/CB Helio P35,180,4230,2020-02-14
+oppo-a31-4gb-128gb,Oppo,A31,4,128,6.5,720x1600,IPS LCD,Mediatek MT6765V/CB Helio P35,180,4230,2020-02-14
+oppo-a31-6gb-128gb,Oppo,A31,6,128,6.5,720x1600,IPS LCD,Mediatek MT6765V/CB Helio P35,180,4230,2020-02-14
 samsung-galaxy-s20+-8gb-128gb,Samsung,Galaxy S20+,8,128,6.7,1440x3200,Dynamic AMOLED 2X,Exynos 990,186,4500,2020-03-06
+infinix-s5-pro-4gb-64gb,Infinix,S5 Pro,4,64,6.53,1080x2340,IPS LCD,Mediatek MT6765 Helio P35,195,4000,2020-03-13
+infinix-s5-pro-6gb-128gb,Infinix,S5 Pro,6,128,6.53,1080x2340,IPS LCD,Mediatek MT6765 Helio P35,195,4000,2020-03-13
 samsung-galaxy-s20-ultra-12gb-128gb,Samsung,Galaxy S20 Ultra,12,128,6.9,1440x3200,Dynamic AMOLED 2X,Exynos 990,220,5000,2020-03-15
 samsung-galaxy-s20-ultra-16gb-512gb,Samsung,Galaxy S20 Ultra,16,512,6.9,1440x3200,Dynamic AMOLED 2X,Exynos 990,220,5000,2020-03-15
+infinix-hot-9-2gb-32gb,Infinix,Hot 9,2,32,6.6,720x1600,IPS LCD,MediaTek Helio A25,185,5000,2020-04-01
+infinix-hot-9-3gb-32gb,Infinix,Hot 9,3,32,6.6,720x1600,IPS LCD,MediaTek Helio A25,185,5000,2020-04-01
+infinix-hot-9-3gb-64gb,Infinix,Hot 9,3,64,6.6,720x1600,IPS LCD,MediaTek Helio A25,185,5000,2020-04-01
+infinix-hot-9-4gb-64gb,Infinix,Hot 9,4,64,6.6,720x1600,IPS LCD,MediaTek Helio A25,185,5000,2020-04-01
+infinix-hot-9-4gb-128gb,Infinix,Hot 9,4,128,6.6,720x1600,IPS LCD,MediaTek Helio A25,185,5000,2020-04-01
+oppo-a12-3gb-32gb,Oppo,A12,3,32,6.22,720x1520,IPS LCD,Mediatek MT6765 Helio P35,165,4230,2020-04-20
+oppo-a12-4gb-64gb,Oppo,A12,4,64,6.22,720x1520,IPS LCD,Mediatek MT6765 Helio P35,165,4230,2020-04-20
+oppo-a52-4gb-64gb,Oppo,A52,4,64,6.5,1080x2400,IPS LCD,Qualcomm SM6125 Snapdragon 665,192,5000,2020-04-20
+oppo-a52-4gb-128gb,Oppo,A52,4,128,6.5,1080x2400,IPS LCD,Qualcomm SM6125 Snapdragon 665,192,5000,2020-04-20
+oppo-a52-6gb-128gb,Oppo,A52,6,128,6.5,1080x2400,IPS LCD,Qualcomm SM6125 Snapdragon 665,192,5000,2020-04-20
+oppo-a52-8gb-128gb,Oppo,A52,8,128,6.5,1080x2400,IPS LCD,Qualcomm SM6125 Snapdragon 665,192,5000,2020-04-20
 samsung-galaxy-a31-4gb-64gb,Samsung,Galaxy A31,4,64,6.4,1080x2400,Super AMOLED,Mediatek MT6768 Helio P65,185,5000,2020-04-27
 samsung-galaxy-a31-4gb-128gb,Samsung,Galaxy A31,4,128,6.4,1080x2400,Super AMOLED,Mediatek MT6768 Helio P65,185,5000,2020-04-27
 samsung-galaxy-a31-6gb-128gb,Samsung,Galaxy A31,6,128,6.4,1080x2400,Super AMOLED,Mediatek MT6768 Helio P65,185,5000,2020-04-27
 samsung-galaxy-a31-8gb-128gb,Samsung,Galaxy A31,8,128,6.4,1080x2400,Super AMOLED,Mediatek MT6768 Helio P65,185,5000,2020-04-27
+huawei-nova-7-5g-8gb-128gb,Huawei,nova 7 5G,8,128,6.53,1080x2400,OLED,Kirin 985 5G,180,4000,2020-04-28
+huawei-nova-7-5g-8gb-256gb,Huawei,nova 7 5G,8,256,6.53,1080x2400,OLED,Kirin 985 5G,180,4000,2020-04-28
+huawei-y6s-(2019)-3gb-32gb,Huawei,Y6s (2019),3,32,6.09,720x1560,IPS LCD,Mediatek MT6765 Helio P35,150,3020,2020-05-01
+huawei-y6s-(2019)-3gb-64gb,Huawei,Y6s (2019),3,64,6.09,720x1560,IPS LCD,Mediatek MT6765 Helio P35,150,3020,2020-05-01
 samsung-galaxy-a11-2gb-32gb,Samsung,Galaxy A11,2,32,6.4,720x1560,PLS IPS,Qualcomm SDM450 Snapdragon 450,177,4000,2020-05-01
 samsung-galaxy-a11-3gb-32gb,Samsung,Galaxy A11,3,32,6.4,720x1560,PLS IPS,Qualcomm SDM450 Snapdragon 450,177,4000,2020-05-01
 samsung-galaxy-a11-3gb-64gb,Samsung,Galaxy A11,3,64,6.4,720x1560,PLS IPS,Qualcomm SDM450 Snapdragon 450,177,4000,2020-05-01
@@ -46,6 +79,9 @@ samsung-galaxy-a11-4gb-64gb,Samsung,Galaxy A11,4,64,6.4,720x1560,PLS IPS,Qualcom
 xiaomi-redmi-note-9-pro-6gb-64gb,Xiaomi,Redmi Note 9 Pro,6,64,6.67,1080x2400,IPS LCD,Qualcomm SM7125 Snapdragon 720G,209,5020,2020-05-05
 xiaomi-redmi-note-9-pro-6gb-128gb,Xiaomi,Redmi Note 9 Pro,6,128,6.67,1080x2400,IPS LCD,Qualcomm SM7125 Snapdragon 720G,209,5020,2020-05-05
 xiaomi-redmi-note-9-pro-8gb-128gb,Xiaomi,Redmi Note 9 Pro,8,128,6.67,1080x2400,IPS LCD,Qualcomm SM7125 Snapdragon 720G,209,5020,2020-05-05
+huawei-y6p-3gb-32gb,Huawei,Y6p,3,32,6.3,720x1600,IPS LCD,Mediatek MT6762R Helio P22,185,5000,2020-05-06
+huawei-y6p-3gb-64gb,Huawei,Y6p,3,64,6.3,720x1600,IPS LCD,Mediatek MT6762R Helio P22,185,5000,2020-05-06
+huawei-y6p-4gb-64gb,Huawei,Y6p,4,64,6.3,720x1600,IPS LCD,Mediatek MT6762R Helio P22,185,5000,2020-05-06
 samsung-galaxy-a21s-2gb-32gb,Samsung,Galaxy A21s,2,32,6.5,720x1600,PLS IPS,Exynos 850,192,5000,2020-06-02
 samsung-galaxy-a21s-3gb-32gb,Samsung,Galaxy A21s,3,32,6.5,720x1600,PLS IPS,Exynos 850,192,5000,2020-06-02
 samsung-galaxy-a21s-4gb-32gb,Samsung,Galaxy A21s,4,32,6.5,720x1600,PLS IPS,Exynos 850,192,5000,2020-06-02
@@ -55,7 +91,14 @@ samsung-galaxy-a21s-6gb-64gb,Samsung,Galaxy A21s,6,64,6.5,720x1600,PLS IPS,Exyno
 samsung-galaxy-a21s-3gb-128gb,Samsung,Galaxy A21s,3,128,6.5,720x1600,PLS IPS,Exynos 850,192,5000,2020-06-02
 samsung-galaxy-a21s-4gb-128gb,Samsung,Galaxy A21s,4,128,6.5,720x1600,PLS IPS,Exynos 850,192,5000,2020-06-02
 samsung-galaxy-a21s-6gb-128gb,Samsung,Galaxy A21s,6,128,6.5,720x1600,PLS IPS,Exynos 850,192,5000,2020-06-02
+huawei-y8p-4gb-128gb,Huawei,Y8p,4,128,6.3,1080x2400,OLED,Kirin 710F,163,4000,2020-06-15
+huawei-y8p-6gb-128gb,Huawei,Y8p,6,128,6.3,1080x2400,OLED,Kirin 710F,163,4000,2020-06-15
 samsung-galaxy-a21-3gb-32gb,Samsung,Galaxy A21,3,32,6.5,720x1600,IPS LCD,Mediatek MT6765 Helio P35,193,4000,2020-06-26
+infinix-note-7-lite-4gb-64gb,Infinix,Note 7 Lite,4,64,6.6,720x1600,IPS LCD,Mediatek Helio,185,5000,2020-07-01
+infinix-note-7-lite-4gb-128gb,Infinix,Note 7 Lite,4,128,6.6,720x1600,IPS LCD,Mediatek Helio,185,5000,2020-07-01
+infinix-note-7-4gb-64gb,Infinix,Note 7,4,64,6.95,720x1640,IPS LCD,Mediatek Helio G70,206,5000,2020-07-01
+infinix-note-7-4gb-128gb,Infinix,Note 7,4,128,6.95,720x1640,IPS LCD,Mediatek Helio G70,206,5000,2020-07-01
+infinix-note-7-6gb-128gb,Infinix,Note 7,6,128,6.95,720x1640,IPS LCD,Mediatek Helio G70,206,5000,2020-07-01
 xiaomi-redmi-9a-2gb-32gb,Xiaomi,Redmi 9A,2,32,6.53,720x1600,IPS LCD,MediaTek Helio G25,196,5000,2020-07-07
 xiaomi-redmi-9a-3gb-32gb,Xiaomi,Redmi 9A,3,32,6.53,720x1600,IPS LCD,MediaTek Helio G25,196,5000,2020-07-07
 xiaomi-redmi-9a-4gb-64gb,Xiaomi,Redmi 9A,4,64,6.53,720x1600,IPS LCD,MediaTek Helio G25,196,5000,2020-07-07
@@ -81,6 +124,9 @@ samsung-galaxy-note20-ultra-12gb-512gb,Samsung,Galaxy Note20 Ultra,12,512,6.9,14
 oppo-a53-4gb-64gb,Oppo,A53,4,64,6.5,720x1600,IPS LCD,Qualcomm SM4250 Snapdragon 460,186,5000,2020-08-25
 oppo-a53-4gb-128gb,Oppo,A53,4,128,6.5,720x1600,IPS LCD,Qualcomm SM4250 Snapdragon 460,186,5000,2020-08-25
 oppo-a53-6gb-128gb,Oppo,A53,6,128,6.5,720x1600,IPS LCD,Qualcomm SM4250 Snapdragon 460,186,5000,2020-08-25
+huawei-y9a-6gb-128gb,Huawei,Y9a,6,128,6.63,1080x2400,IPS LCD,Mediatek Helio G80,197,4200,2020-09-12
+huawei-y9a-8gb-128gb,Huawei,Y9a,8,128,6.63,1080x2400,IPS LCD,Mediatek Helio G80,197,4200,2020-09-12
+oppo-a93-8gb-128gb,Oppo,A93,8,128,6.43,1080x2400,Super AMOLED,Mediatek MT6779V Helio P95,164,4000,2020-10-01
 xiaomi-mi-10t-5g-6gb-128gb,Xiaomi,Mi 10T 5G,6,128,6.67,1080x2400,IPS LCD,Qualcomm SM8250 Snapdragon 865 5G,216,5000,2020-10-13
 xiaomi-mi-10t-5g-8gb-128gb,Xiaomi,Mi 10T 5G,8,128,6.67,1080x2400,IPS LCD,Qualcomm SM8250 Snapdragon 865 5G,216,5000,2020-10-13
 apple-iphone-12-pro-6gb-128gb,Apple,iPhone 12 Pro,6,128,6.1,1170x2532,Super Retina XDR OLED,Apple A14 Bionic,189,2815,2020-10-23
@@ -89,12 +135,20 @@ apple-iphone-12-pro-6gb-512gb,Apple,iPhone 12 Pro,6,512,6.1,1170x2532,Super Reti
 apple-iphone-12-4gb-64gb,Apple,iPhone 12,4,64,6.1,1170x2532,Super Retina XDR OLED,Apple A14 Bionic,164,2815,2020-10-23
 apple-iphone-12-4gb-128gb,Apple,iPhone 12,4,128,6.1,1170x2532,Super Retina XDR OLED,Apple A14 Bionic,164,2815,2020-10-23
 apple-iphone-12-4gb-256gb,Apple,iPhone 12,4,256,6.1,1170x2532,Super Retina XDR OLED,Apple A14 Bionic,164,2815,2020-10-23
+infinix-hot-10-lite-2gb-32gb,Infinix,Hot 10 Lite,2,32,6.6,720x1600,IPS LCD,Mediatek MT6761D Helio A20,8,5000,2020-10-26
+infinix-hot-10-lite-3gb-64gb,Infinix,Hot 10 Lite,3,64,6.6,720x1600,IPS LCD,Mediatek MT6761D Helio A20,8,5000,2020-10-26
+oppo-a15-2gb-32gb,Oppo,A15,2,32,6.52,720x1600,IPS LCD,Mediatek MT6765 Helio P35,175,4230,2020-10-27
+oppo-a15-3gb-32gb,Oppo,A15,3,32,6.52,720x1600,IPS LCD,Mediatek MT6765 Helio P35,175,4230,2020-10-27
+infinix-note-8-6gb-128gb,Infinix,Note 8,6,128,6.95,720x1640,IPS LCD,Mediatek Helio G80,9,5200,2020-11-04
 apple-iphone-12-pro-max-6gb-128gb,Apple,iPhone 12 Pro Max,6,128,6.7,1284x2778,Super Retina XDR OLED,Apple A14 Bionic,228,3687,2020-11-13
 apple-iphone-12-pro-max-6gb-256gb,Apple,iPhone 12 Pro Max,6,256,6.7,1284x2778,Super Retina XDR OLED,Apple A14 Bionic,228,3687,2020-11-13
 apple-iphone-12-pro-max-6gb-512gb,Apple,iPhone 12 Pro Max,6,512,6.7,1284x2778,Super Retina XDR OLED,Apple A14 Bionic,228,3687,2020-11-13
 apple-iphone-12-mini-4gb-64gb,Apple,iPhone 12 mini,4,64,5.4,1080x2340,Super Retina XDR OLED,Apple A14 Bionic,135,2227,2020-11-13
 apple-iphone-12-mini-4gb-128gb,Apple,iPhone 12 mini,4,128,5.4,1080x2340,Super Retina XDR OLED,Apple A14 Bionic,135,2227,2020-11-13
 apple-iphone-12-mini-4gb-256gb,Apple,iPhone 12 mini,4,256,5.4,1080x2340,Super Retina XDR OLED,Apple A14 Bionic,135,2227,2020-11-13
+infinix-note-8i-4gb-64gb,Infinix,Note 8i,4,64,6.78,720x1640,IPS LCD,Mediatek Helio G80,8,5200,2020-11-15
+infinix-note-8i-4gb-128gb,Infinix,Note 8i,4,128,6.78,720x1640,IPS LCD,Mediatek Helio G80,8,5200,2020-11-15
+infinix-note-8i-6gb-128gb,Infinix,Note 8i,6,128,6.78,720x1640,IPS LCD,Mediatek Helio G80,8,5200,2020-11-15
 oppo-a73-4gb-128gb,Oppo,A73,4,128,6.44,1080x2400,AMOLED,Qualcomm SM6115 Snapdragon 662,163,4015,2020-11-20
 oppo-a73-6gb-128gb,Oppo,A73,6,128,6.44,1080x2400,AMOLED,Qualcomm SM6115 Snapdragon 662,163,4015,2020-11-20
 xiaomi-redmi-note-9-4g-4gb-128gb,Xiaomi,Redmi Note 9 4G,4,128,6.53,1080x2340,IPS LCD,Qualcomm SM6115 Snapdragon 662,198,6000,2020-11-26
@@ -106,6 +160,8 @@ xiaomi-redmi-note-9-5g-6gb-128gb,Xiaomi,Redmi Note 9 5G,6,128,6.53,1080x2340,IPS
 xiaomi-redmi-note-9-5g-8gb-128gb,Xiaomi,Redmi Note 9 5G,8,128,6.53,1080x2340,IPS LCD,MediaTek MT6853 Dimensity 800U 5G,199,5000,2020-12-01
 xiaomi-redmi-note-9-5g-6gb-256gb,Xiaomi,Redmi Note 9 5G,6,256,6.53,1080x2340,IPS LCD,MediaTek MT6853 Dimensity 800U 5G,199,5000,2020-12-01
 xiaomi-redmi-note-9-5g-8gb-256gb,Xiaomi,Redmi Note 9 5G,8,256,6.53,1080x2340,IPS LCD,MediaTek MT6853 Dimensity 800U 5G,199,5000,2020-12-01
+oppo-a15s-4gb-64gb,Oppo,A15s,4,64,6.52,720x1600,IPS LCD,Mediatek MT6765 Helio P35,177,4230,2020-12-18
+oppo-a15s-4gb-128gb,Oppo,A15s,4,128,6.52,720x1600,IPS LCD,Mediatek MT6765 Helio P35,177,4230,2020-12-18
 samsung-galaxy-a12-2gb-32gb,Samsung,Galaxy A12,2,32,6.5,720x1600,PLS IPS,Mediatek MT6765 Helio P35,205,5000,2020-12-21
 samsung-galaxy-a12-3gb-32gb,Samsung,Galaxy A12,3,32,6.5,720x1600,PLS IPS,Mediatek MT6765 Helio P35,205,5000,2020-12-21
 samsung-galaxy-a12-4gb-64gb,Samsung,Galaxy A12,4,64,6.5,720x1600,PLS IPS,Mediatek MT6765 Helio P35,205,5000,2020-12-21
@@ -118,6 +174,7 @@ samsung-galaxy-a02s-3gb-32gb,Samsung,Galaxy A02s,3,32,6.5,720x1600,PLS IPS,Qualc
 samsung-galaxy-a02s-4gb-32gb,Samsung,Galaxy A02s,4,32,6.5,720x1600,PLS IPS,Qualcomm SDM450 Snapdragon 450,196,5000,2021-01-04
 samsung-galaxy-a02s-3gb-64gb,Samsung,Galaxy A02s,3,64,6.5,720x1600,PLS IPS,Qualcomm SDM450 Snapdragon 450,196,5000,2021-01-04
 samsung-galaxy-a02s-4gb-64gb,Samsung,Galaxy A02s,4,64,6.5,720x1600,PLS IPS,Qualcomm SDM450 Snapdragon 450,196,5000,2021-01-04
+oppo-reno5-4g-8gb-128gb,Oppo,Reno5 4G,8,128,6.4,1080x2400,AMOLED,Qualcomm SM7125 Snapdragon 720G,171,4310,2021-01-09
 xiaomi-redmi-9t-4gb-64gb,Xiaomi,Redmi 9T,4,64,6.53,1080x2340,IPS LCD,Qualcomm SM6115 Snapdragon 662,198,6000,2021-01-18
 xiaomi-redmi-9t-4gb-128gb,Xiaomi,Redmi 9T,4,128,6.53,1080x2340,IPS LCD,Qualcomm SM6115 Snapdragon 662,198,6000,2021-01-18
 xiaomi-redmi-9t-6gb-128gb,Xiaomi,Redmi 9T,6,128,6.53,1080x2340,IPS LCD,Qualcomm SM6115 Snapdragon 662,198,6000,2021-01-18
@@ -135,6 +192,7 @@ samsung-galaxy-a32-4gb-64gb,Samsung,Galaxy A32,4,64,6.4,1080x2400,Super AMOLED,M
 samsung-galaxy-a32-4gb-128gb,Samsung,Galaxy A32,4,128,6.4,1080x2400,Super AMOLED,Mediatek Helio G80,184,5000,2021-02-25
 samsung-galaxy-a32-6gb-128gb,Samsung,Galaxy A32,6,128,6.4,1080x2400,Super AMOLED,Mediatek Helio G80,184,5000,2021-02-25
 samsung-galaxy-a32-8gb-128gb,Samsung,Galaxy A32,8,128,6.4,1080x2400,Super AMOLED,Mediatek Helio G80,184,5000,2021-02-25
+oppo-a94-8gb-128gb,Oppo,A94,8,128,6.43,1080x2400,AMOLED,Mediatek MT6779V Helio P95,172,4310,2021-03-11
 xiaomi-redmi-note-10-4gb-64gb,Xiaomi,Redmi Note 10,4,64,6.43,1080x2400,Super AMOLED,Qualcomm SDM678 Snapdragon 678,178,5000,2021-03-16
 xiaomi-redmi-note-10-4gb-128gb,Xiaomi,Redmi Note 10,4,128,6.43,1080x2400,Super AMOLED,Qualcomm SDM678 Snapdragon 678,178,5000,2021-03-16
 xiaomi-redmi-note-10-6gb-128gb,Xiaomi,Redmi Note 10,6,128,6.43,1080x2400,Super AMOLED,Qualcomm SDM678 Snapdragon 678,178,5000,2021-03-16
@@ -150,6 +208,9 @@ samsung-galaxy-a52-6gb-128gb,Samsung,Galaxy A52,6,128,6.5,1080x2400,Super AMOLED
 samsung-galaxy-a52-8gb-128gb,Samsung,Galaxy A52,8,128,6.5,1080x2400,Super AMOLED,Qualcomm SM7125 Snapdragon 720G,189,4500,2021-03-26
 samsung-galaxy-a52-6gb-256gb,Samsung,Galaxy A52,6,256,6.5,1080x2400,Super AMOLED,Qualcomm SM7125 Snapdragon 720G,189,4500,2021-03-26
 samsung-galaxy-a52-8gb-256gb,Samsung,Galaxy A52,8,256,6.5,1080x2400,Super AMOLED,Qualcomm SM7125 Snapdragon 720G,189,4500,2021-03-26
+oppo-a54-4gb-64gb,Oppo,A54,4,64,6.51,720x1600,IPS LCD,Mediatek MT6765 Helio P35,192,5000,2021-04-01
+oppo-a54-4gb-128gb,Oppo,A54,4,128,6.51,720x1600,IPS LCD,Mediatek MT6765 Helio P35,192,5000,2021-04-01
+oppo-a54-6gb-128gb,Oppo,A54,6,128,6.51,720x1600,IPS LCD,Mediatek MT6765 Helio P35,192,5000,2021-04-01
 xiaomi-mi-11-lite-4gb-64gb,Xiaomi,Mi 11 Lite,4,64,6.55,1080x2400,AMOLED,Qualcomm SM7150 Snapdragon 732G,157,4250,2021-04-16
 xiaomi-mi-11-lite-6gb-64gb,Xiaomi,Mi 11 Lite,6,64,6.55,1080x2400,AMOLED,Qualcomm SM7150 Snapdragon 732G,157,4250,2021-04-16
 xiaomi-mi-11-lite-6gb-128gb,Xiaomi,Mi 11 Lite,6,128,6.55,1080x2400,AMOLED,Qualcomm SM7150 Snapdragon 732G,157,4250,2021-04-16
@@ -158,6 +219,13 @@ xiaomi-redmi-note-10s-6gb-64gb,Xiaomi,Redmi Note 10S,6,64,6.43,1080x2400,AMOLED,
 xiaomi-redmi-note-10s-4gb-128gb,Xiaomi,Redmi Note 10S,4,128,6.43,1080x2400,AMOLED,Mediatek Helio G95,178,5000,2021-04-28
 xiaomi-redmi-note-10s-6gb-128gb,Xiaomi,Redmi Note 10S,6,128,6.43,1080x2400,AMOLED,Mediatek Helio G95,178,5000,2021-04-28
 xiaomi-redmi-note-10s-8gb-128gb,Xiaomi,Redmi Note 10S,8,128,6.43,1080x2400,AMOLED,Mediatek Helio G95,178,5000,2021-04-28
+oppo-a74-4gb-128gb,Oppo,A74,4,128,6.43,1080x2400,AMOLED,Qualcomm SM6115 Snapdragon 662,175,5000,2021-05-10
+oppo-a74-6gb-128gb,Oppo,A74,6,128,6.43,1080x2400,AMOLED,Qualcomm SM6115 Snapdragon 662,175,5000,2021-05-10
+oppo-a74-8gb-128gb,Oppo,A74,8,128,6.43,1080x2400,AMOLED,Qualcomm SM6115 Snapdragon 662,175,5000,2021-05-10
+infinix-hot-10s-4gb-64gb,Infinix,Hot 10s,4,64,6.82,720x1640,IPS LCD,MediaTek Helio G85,9,6000,2021-05-12
+infinix-hot-10s-6gb-64gb,Infinix,Hot 10s,6,64,6.82,720x1640,IPS LCD,MediaTek Helio G85,9,6000,2021-05-12
+infinix-hot-10s-4gb-128gb,Infinix,Hot 10s,4,128,6.82,720x1640,IPS LCD,MediaTek Helio G85,9,6000,2021-05-12
+infinix-hot-10s-6gb-128gb,Infinix,Hot 10s,6,128,6.82,720x1640,IPS LCD,MediaTek Helio G85,9,6000,2021-05-12
 samsung-galaxy-z-flip3-5g-8gb-128gb,Samsung,Galaxy Z Flip3 5G,8,128,6.7,1080x2640,Foldable Dynamic AMOLED 2X,Qualcomm SM8350 Snapdragon 888 5G,183,3300,2021-08-27
 samsung-galaxy-z-flip3-5g-8gb-256gb,Samsung,Galaxy Z Flip3 5G,8,256,6.7,1080x2640,Foldable Dynamic AMOLED 2X,Qualcomm SM8350 Snapdragon 888 5G,183,3300,2021-08-27
 apple-iphone-13-pro-6gb-128gb,Apple,iPhone 13 Pro,6,128,6.1,1170x2532,Super Retina XDR OLED,Apple A15 Bionic,204,3095,2021-09-24

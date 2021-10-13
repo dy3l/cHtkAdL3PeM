@@ -5,8 +5,8 @@ from pydantic import BaseModel, HttpUrl, confloat, conint, constr
 
 
 class Mobile(BaseModel):
-    id: constr(to_lower=True)
-    brand: constr(regex=r'(Apple|Oppo|Samsung|Xiaomi)')
+    id: constr(regex=r'[a-z0-9-+]+')
+    brand: constr(regex=r'(Apple|Huawei|Infinix|Oppo|Samsung|Xiaomi)')
     model: constr(min_length=1)
     ram_size: conint(gt=0, lt=24)
     storage_size: conint(gt=0, lt=2048, multiple_of=2)
