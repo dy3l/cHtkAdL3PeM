@@ -5,8 +5,8 @@ from pydantic import BaseModel, HttpUrl, confloat, conint, constr
 
 
 class Mobile(BaseModel):
-    id: constr(regex=r'[a-z0-9-+]+')
-    brand: constr(regex=r'(Apple|Huawei|Infinix|Oppo|Samsung|Xiaomi)')
+    id: constr(regex=r"[a-z0-9-+]+")
+    brand: constr(regex=r"(Apple|Huawei|Infinix|Oppo|Samsung|Xiaomi)")
     model: constr(min_length=1)
     ram_size: conint(gt=0, lt=24)
     storage_size: conint(gt=0, lt=2048, multiple_of=2)
@@ -24,6 +24,12 @@ class Product(BaseModel):
     price: conint(gt=0, lt=32000)
     link: HttpUrl
     images: HttpUrl
+
+
+class Store(BaseModel):
+    id: constr(regex=r"[a-z]+")
+    name: constr(min_length=3)
+    website: HttpUrl
 
 
 def test_products():
@@ -60,5 +66,18 @@ def test_mobiles():
         )
 
 
+def test_stores():
+    with open("data/stores.csv", "r", encoding="utf-8") as f:
+        reader = csv.DictReader(f, delimiter=",")
+        stores = list(reader)
+    for store in stores:
+        Store(
+            id=store["id"],
+            name=store["name"],
+            website=store["website"],
+        )
+
+
 test_products()
 test_mobiles()
+test_stores()
