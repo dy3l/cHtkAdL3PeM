@@ -4,7 +4,14 @@ from datetime import date
 from pydantic import BaseModel, HttpUrl, confloat, conint, constr
 
 
-class Mobile(BaseModel):
+class Offer(BaseModel):
+    title: str
+    price: conint(gt=0, lt=32000)
+    link: HttpUrl
+    images: HttpUrl
+
+
+class Product(BaseModel):
     id: constr(regex=r"[a-z0-9-+]+")
     brand: constr(regex=r"(Apple|Huawei|Infinix|Oppo|Samsung|Xiaomi)")
     model: constr(min_length=1)
@@ -19,17 +26,23 @@ class Mobile(BaseModel):
     release_date: date
 
 
-class Product(BaseModel):
-    title: str
-    price: conint(gt=0, lt=32000)
-    link: HttpUrl
-    images: HttpUrl
-
-
 class Store(BaseModel):
     id: constr(regex=r"[a-z]+")
     name: constr(min_length=3)
     website: HttpUrl
+
+
+def test_offers():
+    with open("data/offers.csv", "r", encoding="utf-8") as f:
+        reader = csv.DictReader(f, delimiter=",")
+        offers = list(reader)
+    for offer in offers:
+        Offer(
+            title=offer["title"],
+            price=offer["price"],
+            link=offer["link"],
+            images=offer["images"],
+        )
 
 
 def test_products():
@@ -38,31 +51,18 @@ def test_products():
         products = list(reader)
     for product in products:
         Product(
-            title=product["title"],
-            price=product["price"],
-            link=product["link"],
-            images=product["images"],
-        )
-
-
-def test_mobiles():
-    with open("data/mobiles.csv", "r", encoding="utf-8") as f:
-        reader = csv.DictReader(f, delimiter=",")
-        mobiles = list(reader)
-    for mobile in mobiles:
-        Mobile(
-            id=mobile["id"],
-            brand=mobile["brand"],
-            model=mobile["model"],
-            ram_size=mobile["ram_size"],
-            storage_size=mobile["storage_size"],
-            display_diagonal=mobile["display_diagonal"],
-            display_resolution=mobile["display_resolution"],
-            display_type=mobile["display_type"],
-            chipset=mobile["chipset"],
-            body_weight=mobile["body_weight"],
-            battery_capacity=mobile["battery_capacity"],
-            release_date=mobile["release_date"],
+            id=product["id"],
+            brand=product["brand"],
+            model=product["model"],
+            ram_size=product["ram_size"],
+            storage_size=product["storage_size"],
+            display_diagonal=product["display_diagonal"],
+            display_resolution=product["display_resolution"],
+            display_type=product["display_type"],
+            chipset=product["chipset"],
+            body_weight=product["body_weight"],
+            battery_capacity=product["battery_capacity"],
+            release_date=product["release_date"],
         )
 
 
@@ -79,5 +79,5 @@ def test_stores():
 
 
 test_products()
-test_mobiles()
+test_offers()
 test_stores()
