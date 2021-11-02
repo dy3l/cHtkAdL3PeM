@@ -1,6 +1,6 @@
 id,brand,model,ram_size,storage_size,display_diagonal,display_resolution,display_type,chipset,body_weight,battery_capacity,release_date
-huawei-y7-prime-(2019)-3gb-32gb,Huawei,Y7 Prime (2019),3,32,6.26,720x1520,IPS LCD,Qualcomm SDM450 Snapdragon 450,168,4000,2019-01-01
-huawei-y7-prime-(2019)-3gb-64gb,Huawei,Y7 Prime (2019),3,64,6.26,720x1520,IPS LCD,Qualcomm SDM450 Snapdragon 450,168,4000,2019-01-01
+huawei-y7-prime-2019-3gb-32gb,Huawei,Y7 Prime (2019),3,32,6.26,720x1520,IPS LCD,Qualcomm SDM450 Snapdragon 450,168,4000,2019-01-01
+huawei-y7-prime-2019-3gb-64gb,Huawei,Y7 Prime (2019),3,64,6.26,720x1520,IPS LCD,Qualcomm SDM450 Snapdragon 450,168,4000,2019-01-01
 samsung-galaxy-s10+-6gb-128gb,Samsung,Galaxy S10+,6,128,6.4,1440x3040,Dynamic AMOLED,Exynos 9820,175,4100,2019-03-08
 samsung-galaxy-s10+-8gb-128gb,Samsung,Galaxy S10+,8,128,6.4,1440x3040,Dynamic AMOLED,Exynos 9820,175,4100,2019-03-08
 samsung-galaxy-s10+-8gb-512gb,Samsung,Galaxy S10+,8,512,6.4,1440x3040,Dynamic AMOLED,Exynos 9820,175,4100,2019-03-08
@@ -13,8 +13,8 @@ oppo-a9-6gb-128gb,Oppo,A9,6,128,6.53,1080x2340,IPS LCD,Mediatek MT6771V Helio P7
 oppo-a9-8gb-128gb,Oppo,A9,8,128,6.53,1080x2340,IPS LCD,Mediatek MT6771V Helio P70,190,4020,2019-04-01
 samsung-galaxy-a2-core-1gb-8gb,Samsung,Galaxy A2 Core,1,8,5.0,540x960,PLS IPS,Exynos 7870 Octa,142,2600,2019-04-01
 samsung-galaxy-a2-core-1gb-16gb,Samsung,Galaxy A2 Core,1,16,5.0,540x960,PLS IPS,Exynos 7870 Octa,142,2600,2019-04-01
-oppo-a9-(2020)-4gb-128gb,Oppo,A9 (2020),4,128,6.5,720x1600,IPS LCD,Qualcomm SDM665 Snapdragon 665,195,5000,2019-09-01
-oppo-a9-(2020)-8gb-128gb,Oppo,A9 (2020),8,128,6.5,720x1600,IPS LCD,Qualcomm SDM665 Snapdragon 665,195,5000,2019-09-01
+oppo-a9-2020-4gb-128gb,Oppo,A9 (2020),4,128,6.5,720x1600,IPS LCD,Qualcomm SDM665 Snapdragon 665,195,5000,2019-09-01
+oppo-a9-2020-8gb-128gb,Oppo,A9 (2020),8,128,6.5,720x1600,IPS LCD,Qualcomm SDM665 Snapdragon 665,195,5000,2019-09-01
 huawei-nova-5t-6gb-128gb,Huawei,nova 5T,6,128,6.26,1080x2340,IPS LCD,Kirin 980,174,3750,2019-09-05
 huawei-nova-5t-8gb-128gb,Huawei,nova 5T,8,128,6.26,1080x2340,IPS LCD,Kirin 980,174,3750,2019-09-05
 samsung-galaxy-a30s-3gb-32gb,Samsung,Galaxy A30s,3,32,6.4,720x1560,Super AMOLED,Exynos 7904,169,4000,2019-09-11
@@ -70,8 +70,8 @@ samsung-galaxy-a31-6gb-128gb,Samsung,Galaxy A31,6,128,6.4,1080x2400,Super AMOLED
 samsung-galaxy-a31-8gb-128gb,Samsung,Galaxy A31,8,128,6.4,1080x2400,Super AMOLED,Mediatek MT6768 Helio P65,185,5000,2020-04-27
 huawei-nova-7-5g-8gb-128gb,Huawei,nova 7 5G,8,128,6.53,1080x2400,OLED,Kirin 985 5G,180,4000,2020-04-28
 huawei-nova-7-5g-8gb-256gb,Huawei,nova 7 5G,8,256,6.53,1080x2400,OLED,Kirin 985 5G,180,4000,2020-04-28
-huawei-y6s-(2019)-3gb-32gb,Huawei,Y6s (2019),3,32,6.09,720x1560,IPS LCD,Mediatek MT6765 Helio P35,150,3020,2020-05-01
-huawei-y6s-(2019)-3gb-64gb,Huawei,Y6s (2019),3,64,6.09,720x1560,IPS LCD,Mediatek MT6765 Helio P35,150,3020,2020-05-01
+huawei-y6s-2019-3gb-32gb,Huawei,Y6s (2019),3,32,6.09,720x1560,IPS LCD,Mediatek MT6765 Helio P35,150,3020,2020-05-01
+huawei-y6s-2019-3gb-64gb,Huawei,Y6s (2019),3,64,6.09,720x1560,IPS LCD,Mediatek MT6765 Helio P35,150,3020,2020-05-01
 samsung-galaxy-a11-2gb-32gb,Samsung,Galaxy A11,2,32,6.4,720x1560,PLS IPS,Qualcomm SDM450 Snapdragon 450,177,4000,2020-05-01
 samsung-galaxy-a11-3gb-32gb,Samsung,Galaxy A11,3,32,6.4,720x1560,PLS IPS,Qualcomm SDM450 Snapdragon 450,177,4000,2020-05-01
 samsung-galaxy-a11-3gb-64gb,Samsung,Galaxy A11,3,64,6.4,720x1560,PLS IPS,Qualcomm SDM450 Snapdragon 450,177,4000,2020-05-01
