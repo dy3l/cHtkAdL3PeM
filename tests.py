@@ -9,6 +9,8 @@ class Offer(BaseModel):
     price: conint(gt=0, lt=32000)
     link: HttpUrl
     images: HttpUrl
+    store_id: constr(regex=r"[a-z]+")
+    product_id: str
 
 
 class Product(BaseModel):
@@ -42,6 +44,8 @@ def test_offers():
             price=offer["price"],
             link=offer["link"],
             images=offer["images"],
+            store_id=offer["store_id"],
+            product_id=offer["product_id"],
         )
 
 
