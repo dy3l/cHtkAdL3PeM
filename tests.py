@@ -15,7 +15,7 @@ class Offer(BaseModel):
 
 class Product(BaseModel):
     id: constr(regex=r"[a-z0-9-+]+")
-    brand: constr(regex=r"(Apple|Huawei|Infinix|Oppo|Samsung|Xiaomi)")
+    brand: constr(regex=r"(Apple|Google|Huawei|Infinix|Oppo|Samsung|Xiaomi)")
     model: constr(min_length=1)
     ram_size: conint(gt=0, lt=24)
     storage_size: conint(gt=0, lt=2048, multiple_of=2)
