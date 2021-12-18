@@ -4,21 +4,10 @@ from datetime import date
 from pydantic import BaseModel, HttpUrl, confloat, conint, constr
 
 
-class Offer(BaseModel):
-    title: str
-    price: conint(gt=0, lt=32000)
-    link: HttpUrl
-    images: HttpUrl
-    store_id: constr(regex=r"[a-z]+")
-    product_id: str
-
-
 class Product(BaseModel):
     id: constr(regex=r"[a-z0-9-+]+")
     brand: constr(regex=r"(Apple|Google|Huawei|Infinix|Oppo|Samsung|Xiaomi)")
     model: constr(min_length=1)
-    ram_size: conint(gt=0, lt=24)
-    storage_size: conint(gt=0, lt=2048, multiple_of=2)
     display_diagonal: confloat(gt=0, lt=8)
     display_resolution: str
     display_type: str
@@ -28,38 +17,46 @@ class Product(BaseModel):
     release_date: date
 
 
+class ProductVariant(BaseModel):
+    id: constr(regex=r"[a-z0-9-+]+")
+    ram_size: conint(gt=0, lt=24)
+    storage_size: conint(gt=0, lt=2048, multiple_of=2)
+    product_id: constr(regex=r"[a-z0-9-+]+")
+
+
 class Store(BaseModel):
     id: constr(regex=r"[a-z]+")
     name: constr(min_length=3)
     website: HttpUrl
 
 
-def test_offers():
-    with open("data/offers.csv", "r", encoding="utf-8") as f:
+class Offer(BaseModel):
+    title: str
+    price: conint(gt=0, lt=32000)
+    link: HttpUrl
+    images: HttpUrl
+    store_id: constr(regex=r"[a-z]+")
+    product_variant_id: str
+
+
+def read_csv(filepath):
+    with open(filepath, "r", encoding="utf-8") as f:
         reader = csv.DictReader(f, delimiter=",")
-        offers = list(reader)
-    for offer in offers:
-        Offer(
-            title=offer["title"],
-            price=offer["price"],
-            link=offer["link"],
-            images=offer["images"],
-            store_id=offer["store_id"],
-            product_id=offer["product_id"],
-        )
+        return list(reader)
+
+
+products = read_csv("data/products.csv")
+product_variants = read_csv("data/product_variants.csv")
+stores = read_csv("data/stores.csv")
+offers = read_csv("data/offers.csv")
 
 
 def test_products():
-    with open("data/products.csv", "r", encoding="utf-8") as f:
-        reader = csv.DictReader(f, delimiter=",")
-        products = list(reader)
     for product in products:
         Product(
             id=product["id"],
             brand=product["brand"],
             model=product["model"],
-            ram_size=product["ram_size"],
-            storage_size=product["storage_size"],
             display_diagonal=product["display_diagonal"],
             display_resolution=product["display_resolution"],
             display_type=product["display_type"],
@@ -70,10 +67,18 @@ def test_products():
         )
 
 
+def test_product_variants():
+    for product_variant in product_variants:
+        ProductVariant(
+            id=product_variant["id"],
+            ram_size=product_variant["ram_size"],
+            storage_size=product_variant["storage_size"],
+            product_id=product_variant["product_id"],
+        )
+        assert product_variant["product_id"] in [product["id"] for product in products]
+
+
 def test_stores():
-    with open("data/stores.csv", "r", encoding="utf-8") as f:
-        reader = csv.DictReader(f, delimiter=",")
-        stores = list(reader)
     for store in stores:
         Store(
             id=store["id"],
@@ -82,6 +87,20 @@ def test_stores():
         )
 
 
+def test_offers():
+    for offer in offers:
+        Offer(
+            title=offer["title"],
+            price=offer["price"],
+            link=offer["link"],
+            images=offer["images"],
+            store_id=offer["store_id"],
+            product_variant_id=offer["product_variant_id"],
+        )
+        assert offer["store_id"] in [store["id"] for store in stores]
+
+
 test_products()
-test_offers()
+test_product_variants()
 test_stores()
+test_offers()
