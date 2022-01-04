@@ -1,6 +1,21 @@
 id,brand,model,display_diagonal,display_resolution,display_type,chipset,body_weight,battery_capacity,release_date
+apple-iphone-5c,Apple,iPhone 5c,4.0,640x1136,IPS LCD,Apple A6,132,1510,2013-09-20
+apple-iphone-5s,Apple,iPhone 5s,4.0,640x1136,IPS LCD,Apple A7,112,1560,2013-09-20
+apple-iphone-6,Apple,iPhone 6,4.7,750x1334,IPS LCD,Apple A8,129,1810,2014-09-19
+apple-iphone-6-plus,Apple,iPhone 6 Plus,5.5,1080x1920,IPS LCD,Apple A8,172,2915,2014-09-19
+apple-iphone-6s,Apple,iPhone 6s,4.7,750x1334,IPS LCD,Apple A9,143,1715,2015-09-25
+apple-iphone-6s-plus,Apple,iPhone 6s Plus,5.5,1080x1920,IPS LCD,Apple A9,192,2750,2015-09-25
+apple-iphone-se,Apple,iPhone SE,4.0,640x1136,IPS LCD,Apple A9,113,1624,2016-03-31
+apple-iphone-7,Apple,iPhone 7,4.7,750x1334,Retina IPS LCD,Apple A10 Fusion,138,1960,2016-09-16
+apple-iphone-7-plus,Apple,iPhone 7 Plus,5.5,1080x1920,Retina IPS LCD,Apple A10 Fusion,188,2900,2016-09-16
+apple-iphone-8,Apple,iPhone 8,4.7,750x1334,Retina IPS LCD,Apple A11 Bionic,148,1821,2017-09-22
+apple-iphone-8-plus,Apple,iPhone 8 Plus,5.5,1080x1920,Retina IPS LCD,Apple A11 Bionic,202,2691,2017-09-22
+apple-iphone-x,Apple,iPhone X,5.8,1125x2436,Super Retina OLED,Apple A11 Bionic,174,2716,2017-11-03
+apple-iphone-xs,Apple,iPhone XS,5.8,1125x2436,Super Retina OLED,Apple A12 Bionic,177,2658,2018-09-21
+apple-iphone-xs-max,Apple,iPhone XS Max,6.5,1242x2688,Super Retina OLED,Apple A12 Bionic,208,3174,2018-09-21
 google-pixel-3,Google,Pixel 3,5.5,1080x2160,P-OLED,Qualcomm SDM845 Snapdragon 845,148,2915,2018-10-18
 google-pixel-3-xl,Google,Pixel 3 XL,6.3,1440x2960,P-OLED,Qualcomm SDM845 Snapdragon 845,184,3430,2018-10-18
+apple-iphone-xr,Apple,iPhone XR,6.1,828x1792,Liquid Retina IPS LCD,Apple A12 Bionic,194,2942,2018-10-26
 huawei-y7-prime-2019,Huawei,Y7 Prime (2019),6.26,720x1520,IPS LCD,Qualcomm SDM450 Snapdragon 450,168,4000,2019-01-01
 samsung-galaxy-s10,Samsung,Galaxy S10,6.1,1440x3040,Dynamic AMOLED,Exynos 9820,157,3400,2019-03-08
 samsung-galaxy-s10+,Samsung,Galaxy S10+,6.4,1440x3040,Dynamic AMOLED,Exynos 9820,175,4100,2019-03-08
@@ -32,6 +47,7 @@ samsung-galaxy-m21,Samsung,Galaxy M21,6.4,1080x2340,Super AMOLED,Exynos 9611,188
 infinix-hot-9,Infinix,Hot 9,6.6,720x1600,IPS LCD,MediaTek Helio A25,185,5000,2020-04-01
 oppo-a12,Oppo,A12,6.22,720x1520,IPS LCD,Mediatek MT6765 Helio P35,165,4230,2020-04-20
 oppo-a52,Oppo,A52,6.5,1080x2400,IPS LCD,Qualcomm SM6125 Snapdragon 665,192,5000,2020-04-20
+apple-iphone-se-2020,Apple,iPhone SE (2020),4.7,750x1334,Retina IPS LCD,Apple A13 Bionic,148,1821,2020-04-24
 samsung-galaxy-a31,Samsung,Galaxy A31,6.4,1080x2400,Super AMOLED,Mediatek MT6768 Helio P65,185,5000,2020-04-27
 huawei-nova-7-5g,Huawei,nova 7 5G,6.53,1080x2400,OLED,Kirin 985 5G,180,4000,2020-04-28
 huawei-y6s-2019,Huawei,Y6s (2019),6.09,720x1560,IPS LCD,Mediatek MT6765 Helio P35,150,3020,2020-05-01
@@ -121,6 +137,12 @@ samsung-galaxy-m52-5g,Samsung,Galaxy M52 5G,6.7,1080x2400,Super AMOLED Plus,Qual
 samsung-galaxy-m22,Samsung,Galaxy M22,6.4,720x1600,Super AMOLED,Mediatek Helio G80,186,5000,2021-10-13
 google-pixel-6,Google,Pixel 6,6.4,1080x2400,AMOLED,Google Tensor,207,4614,2021-10-28
 google-pixel-6-pro,Google,Pixel 6 Pro,6.71,1440x3120,LTPO AMOLED,Google Tensor,210,5003,2021-10-28
-xiaomi-redmi-note-11-pro+,Xiaomi,Redmi Note 11 Pro+,6.67,1080x2400,AMOLED,MediaTek Dimensity 920 5G,204,4500,2021-11-01
-xiaomi-redmi-note-11-pro,Xiaomi,Redmi Note 11 Pro,6.67,1080x2400,AMOLED,MediaTek Dimensity 920 5G,207,5160,2021-11-01
 xiaomi-redmi-note-11,Xiaomi,Redmi Note 11,6.6,1080x2400,IPS LCD,MediaTek Dimensity 810 5G,195,5000,2021-11-01
+xiaomi-redmi-note-11-pro,Xiaomi,Redmi Note 11 Pro,6.67,1080x2400,AMOLED,MediaTek Dimensity 920 5G,207,5160,2021-11-01
+xiaomi-redmi-note-11-pro+,Xiaomi,Redmi Note 11 Pro+,6.67,1080x2400,AMOLED,MediaTek Dimensity 920 5G,204,4500,2021-11-01
+xiaomi-poco-m4-pro-5g,Xiaomi,Poco M4 Pro 5G,6.6,1080x2400,IPS LCD,MediaTek Dimensity 810 5G,195,5000,2021-11-11
+xiaomi-redmi-note-11-4g,Xiaomi,Redmi Note 11 4G,6.5,1080x2400,LCD,MediaTek Helio G88,181,5000,2021-12-01
+xiaomi-redmi-note-11t-5g,Xiaomi,Redmi Note 11T 5G,6.6,1080x2400,IPS LCD,MediaTek Dimensity 810 5G,195,5000,2021-12-07
+xiaomi-12,Xiaomi,12,6.28,1080x2400,OLED,Qualcomm SM8450 Snapdragon 8 Gen1,179,4500,2021-12-31
+xiaomi-12-pro,Xiaomi,12 Pro,6.73,1440x3200,LTPO AMOLED,Qualcomm SM8450 Snapdragon 8 Gen1,204,4600,2021-12-31
+xiaomi-12x,Xiaomi,12X,6.28,1080x2400,OLED,Qualcomm SM8250-AC Snapdragon 870 5G,176,4500,2021-12-31
